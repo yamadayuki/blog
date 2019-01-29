@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@compositor/x0": "^6.0.7"
+    "@compositor/x0": "^6.0.7",
+    "rebass": "^3.0.1"
   },
   "x0": {
     "title": "Blog",
