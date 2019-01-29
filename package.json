@@ -6,12 +6,16 @@
   "main": "index.js",
   "scripts": {
     "start": "x0 pages",
-    "build": "x0 build pages -d docs --title Blog"
+    "build": "x0 build pages -d docs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@compositor/x0": "^6.0.7"
+  },
+  "x0": {
+    "title": "Blog",
+    "basename": "/blog"
   }
 }
