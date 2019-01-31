@@ -16,7 +16,7 @@ export default class extends React.Component {
     return (
       <React.Fragment>
         <GlobalStyle />
-        <Box px={5}>{children}</Box>
+        <Box px={[4, 4, 5, 5]}>{children}</Box>
       </React.Fragment>
     );
   }
